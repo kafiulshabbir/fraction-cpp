@@ -1,6 +1,7 @@
 # fraction-cpp
 fraction cplusplus library to deal with fractions
 
+
 This library has the following functionality as public methods
 Most importantly the code will crash anytime the denominator is zeop.
 Also during any modification the numerators and denominators are simplified.
@@ -38,25 +39,3 @@ fraction operator/ (fraction a, const fraction& b)
 
 std::ostream& operator<< (std::ostream& os, const fraction& a)
 std::istream& operator>> (std::istream& is, fraction& a)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
