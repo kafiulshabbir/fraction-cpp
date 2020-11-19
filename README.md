@@ -12,10 +12,10 @@ fraction& operator= (const fraction& other)
 fraction(const type& nume)
 explicit fraction(const type& nume, const type& deno)
 
-fraction operator+ () const {return *this;}
-fraction operator- () cons
+fraction operator+ ()
+fraction operator- ()
 fraction& operator+= (const fraction& other)
-fraction& operator-= (const fraction& other) {return operator+= (-other);}
+fraction& operator-= (const fraction& other)
 fraction& operator*= (const fraction& other)
 fraction& operator/= (const fraction& other)
 
