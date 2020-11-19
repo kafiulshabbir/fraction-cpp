@@ -20,8 +20,8 @@ fraction& operator-= (const fraction& other)
 fraction& operator*= (const fraction& other)
 fraction& operator/= (const fraction& other)
 
-fraction& operator++ () {return operator+= (1);}
-fraction& operator-- () {return operator-= (1);}
+fraction& operator++ ()
+fraction& operator-- ()
 fraction operator++ (int)
 fraction operator-- (int)
 
